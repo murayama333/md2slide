@@ -1,0 +1,39 @@
+### Part1: CSSとは
+
+# インラインCSS
+
++ HTMLタグの **style 属性** に直接CSS を記述する方法
++ 要素に対してピンポイントでスタイルを適用できる
++ **style 属性** には **プロパティ: 値;** の形式で記述する
+
+## サンプルコード
+
+### インラインCSS
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Part1</title>
+</head>
+
+<body>
+    <h1>タイトル</h1>
+    <p style="color: red;">段落1</p>
+    <p style="color: red;">段落2</p>
+</body>
+
+</html>
+```
+
+### 実行結果
+
+![](https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/img/04.png)
+
+## ポイント
+
+⚠️ インラインCSSにはセレクタと {} は不要です。
+
+**style 属性**にプロパティと値を記述します。

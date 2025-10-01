@@ -1,0 +1,49 @@
+### Part1: CSSとは
+
+# CSSの記述方法
+
++ CSSを記述する方法は3つある
+  + インラインCSS
+  + 内部CSS
+  + 外部CSS
+
+## サンプルコード
+
+### インラインCSS
+
+```html
+<p style="color: red;">段落1</p>
+<p style="color: red;">段落2</p>
+```
+
+### 内部CSS
+
+```html
+<style>
+    p {
+        color: green;
+    }
+</style>
+```
+
+### 外部CSS
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <title>Part1</title>
+    <link rel="stylesheet" href="part1.css">
+</head>
+```
+
+## 実行結果
+
+## ポイント
+
+💡 記述方法の特徴
+
++ インラインCSS：要素に直接スタイルを記述する
++ 内部CSS：1つのページ内でスタイルを共通化する
++ 外部CSS：複数ページでスタイルを共通化する
+
+💬 学習時はインラインCSSや内部CSSが便利です。実務では外部CSSを記述することが一般的です。
