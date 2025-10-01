@@ -4,7 +4,7 @@
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: bold;
 }
 
@@ -14,17 +14,13 @@ h3 {
 
 ul,
 p {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
 }
 
 pre code {
     border-radius: 10px;
     font-size: 1.20rem;
     background-color: #333 !important;
-}
-
-.common {
-    padding: 2rem;
 }
 
 .url-input {
@@ -66,7 +62,8 @@ pre code {
     left: 0;
     top: 0;
     width: 60vw;
-    height: 100vh;
+    height: 60vh;
+    padding: 2rem;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -81,6 +78,7 @@ pre code {
     top: 0;
     width: 40vw;
     height: 100vh;
+    padding: 2rem;
     z-index: 2;
     overflow-y: scroll;
 
@@ -110,8 +108,9 @@ pre code {
     bottom: 0;
     left: 0;
     width: 60vw;
-    height: 60vh;
-    z-index: 1;
+    height: 50vh;
+    padding: 0.5rem;
+    z-index: 3;
     display: flex;
     justify-content: center;
     overflow-y: scroll;
@@ -123,7 +122,8 @@ pre code {
 }
 
 .three img {
-    max-width: 80%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .four {
@@ -134,7 +134,8 @@ pre code {
     left: 0;
     width: 60vw;
     height: 35vh;
-    z-index: 1;
+    padding: 2rem;
+    z-index: 4;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -177,7 +177,7 @@ const three = document.querySelector(".three");
 three.addEventListener("dblclick", () => {
   toggle(
     three,
-    { width: "60vw", height: "60vh" },
+    { width: "60vw", height: "50vh" },
     { width: "100vw", height: "100vh" }
   );
 });
