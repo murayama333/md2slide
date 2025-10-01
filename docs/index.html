@@ -127,11 +127,22 @@
             opacity: 1;
             pointer-events: auto;
         }
-        
+
+        .controller {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            width: 100vw;
+            z-index: 100;
+        }
     </style>
 </head>
 
 <body>
+    <div class="controller">
+        <input type="text" id="url" placeholder="URL">
+        <button id="load">Load</button>
+    </div>
     <div class="common one" contenteditable="true"></div>
     <div class="common two fade" contenteditable="true" ondblclick="toggle(this,  {width: '100vw', height: '100vh'}, {width: '40vw', height: '100vh'})"></div>
     <div class="common three fade" ondblclick="toggle(this,  {width: '100vw', height: '100vh'}, {width: '60vw', height: '60vh'})"></div>
@@ -172,7 +183,6 @@
             } else if (number === 4) {
                 togglePanelInternal('.four');
             }
-
             flash();
         }
 
@@ -228,7 +238,7 @@
         // marked に highlight.js を組み込む
         marked.use(markedHighlight({
             langPrefix: 'hljs language-',
-            highlight(code, lang) {
+            highlight(code, lang) {£™
                 if (hljs.getLanguage(lang)) {
                     return hljs.highlight(code, { language: lang }).value;
                 }
@@ -236,10 +246,9 @@
             }
         }));
 
-        window.addEventListener('load', async function (e) {
-            // const url = "https://gist.githubusercontent.com/murayama333/e43e91714ea3ca9f75259cf8bfbe12ca/raw/c960658405bb0718f04090a604c49cf4777ba6f5/demo1.md";
-            // const url = "https://gist.githubusercontent.com/murayama333/3c958ef75e7ec2a80ee9b2edfe24e252/raw/395b45fd416da2e564cc402a64423504b587009a/demo2.md"
-            const url = "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/02_css.md"
+        const loadContents = async () => {
+            const urlValue = document.querySelector('#url').value
+            const url = urlValue === "" ? "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/02_css.md" : urlValue;
             const response = await fetch(url);
             const md = await response.text();
             const mdParts = md.split(/^##\s/m);
@@ -252,7 +261,12 @@
             document.querySelector('.three').innerHTML = threeContents;
             const fourContents = marked.parse(adjustFirstLine(mdParts[3]));
             document.querySelector('.four').innerHTML = fourContents;
-        });
+        }
+
+
+        window.addEventListener('load', loadContents);
+        document.querySelector('#load').addEventListener('click', loadContents);
+
 
         const adjustFirstLine = (string) => {
             if (string.startsWith("サンプルコード\n")) {

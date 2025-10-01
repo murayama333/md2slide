@@ -8,7 +8,7 @@
 
 ## サンプルコード
 
-![CSS画像](img/01.png)
+![CSS画像](https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/img/01.png)
 
 ## 実行結果
 

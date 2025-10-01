@@ -39,7 +39,7 @@
 
 ## 実行結果
 
-![](img/02.png)
+![](https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/img/02.png)
 
 ## ポイント
 
