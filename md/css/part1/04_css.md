@@ -28,7 +28,7 @@
 </html>
 ```
 
-### 実行結果
+## 実行結果
 
 ![](https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/img/04.png)
 
