@@ -238,7 +238,8 @@
 
         window.addEventListener('load', async function (e) {
             // const url = "https://gist.githubusercontent.com/murayama333/e43e91714ea3ca9f75259cf8bfbe12ca/raw/c960658405bb0718f04090a604c49cf4777ba6f5/demo1.md";
-            const url = "https://gist.githubusercontent.com/murayama333/3c958ef75e7ec2a80ee9b2edfe24e252/raw/395b45fd416da2e564cc402a64423504b587009a/demo2.md"
+            // const url = "https://gist.githubusercontent.com/murayama333/3c958ef75e7ec2a80ee9b2edfe24e252/raw/395b45fd416da2e564cc402a64423504b587009a/demo2.md"
+            const url = "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part1/02_css.md"
             const response = await fetch(url);
             const md = await response.text();
             const mdParts = md.split(/^##\s/m);
