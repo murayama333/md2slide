@@ -27,6 +27,16 @@
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part2/08.md",
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part2/09.md"
         ]
+      },
+      {
+        "title": "Part3: カラーとフォントに関するプロパティ",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/05.md"
+        ]
       }
     ]
   }
