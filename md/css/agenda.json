@@ -64,6 +64,17 @@
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part5/09.md",
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part5/10.md"
         ]
+      },
+      {
+        "title": "Part6: グリッド",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/05.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/06.md"
+        ]
       }
     ]
   }
