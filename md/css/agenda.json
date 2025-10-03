@@ -86,6 +86,17 @@
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/05.md",
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/06.md"
         ]
+      },
+      {
+        "title": "Part8: レスポンシブWebデザイン",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/05.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part8/06.md"
+        ]
       }
     ]
   }
