@@ -38,6 +38,18 @@
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part3/05.md"
         ]
       }
+      {
+        "title": "Part4: ボックスモデル",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/05.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/06.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part4/07.md"
+        ]
+      }
     ]
   }
 ]
