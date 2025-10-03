@@ -75,6 +75,17 @@
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/05.md",
           "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part6/06.md"
         ]
+      },
+      {
+        "title": "Part7: 位置指定に関するプロパティ",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/05.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/css/part7/06.md"
+        ]
       }
     ]
   }
