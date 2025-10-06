@@ -5,10 +5,10 @@
       {
         "title": "Part1: .mdファイルの作り方",
         "urls": [
-          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/01.md",
-          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/02.md",
-          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/03.md",
-          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/04.md"
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/01.md?x=1",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/02.md?x=2",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/03.md?x=3",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/04.md?x=4"
         ]
       }
     ]
