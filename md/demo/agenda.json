@@ -1,0 +1,16 @@
+[
+  {
+    "course": "SLIDE-D入門",
+    "chapters": [
+      {
+        "title": "Part1: .mdファイルの作り方",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/demo/04.md"
+        ]
+      }
+    ]
+  }
+]
