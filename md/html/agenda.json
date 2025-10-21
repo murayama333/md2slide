@@ -1,0 +1,17 @@
+[
+  {
+    "course": "HTML基礎知識",
+    "chapters": [
+      {
+        "title": "Part1: はじめてのHTML",
+        "urls": [
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/html/part1/01.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/html/part1/02.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/html/part1/03.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/html/part1/04.md",
+          "https://raw.githubusercontent.com/murayama333/md2slide/refs/heads/main/md/html/part1/05.md"
+        ]
+      }
+    ]
+  }
+]
